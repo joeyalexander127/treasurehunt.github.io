@@ -1,0 +1,41 @@
+ *{
+    background-image: url(https://us.123rf.com/450wm/artmari/artmari2012/artmari201203080/artmari201203080.jpg?ver=6);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: "Aboreto", cursive;
+}
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+table{
+    margin:auto;
+}
+footer{
+    padding-top: 30px;
+}
+
+.rules-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    color:rgb(0, 213, 241)
+  }
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.cheeseDudes{
+    animation: spin 6s infinite; 
+}
